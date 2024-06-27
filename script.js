@@ -37,7 +37,6 @@ function handleLose() {
   ball.reset()
   computerPaddle.reset()
 }
-
 document.addEventListener("mousemove", e => {
   playerPaddle.position = (e.y / window.innerHeight) * 100
 })
