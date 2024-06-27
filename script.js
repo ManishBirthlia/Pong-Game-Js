@@ -15,12 +15,9 @@ function update(time) {
     const hue = parseFloat(
       getComputedStyle(document.documentElement).getPropertyValue("--hue")
     )
-
     document.documentElement.style.setProperty("--hue", hue + delta * 0.01)
-
     if (isLose()) handleLose()
   }
-
   lastTime = time
   window.requestAnimationFrame(update)
 }
