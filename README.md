@@ -1,1 +1,2 @@
-# Pong-Game-Js
+# Pong Game Js
+I created a classic Pong game using HTML, CSS, and JavaScript. The game features a simple yet engaging interface where players control paddles using mouse movement to hit a ball back and forth. Implemented with HTML5 canvas and styled using CSS for a sleek appearance, the game includes scoring elements displayed prominently at the top, updating dynamically as players score points. JavaScript handles game logic, including ball movement physics, paddle interaction, and score tracking. This project not only showcases my skills in frontend technologies but also highlights my ability to create interactive and visually appealing web applications.
