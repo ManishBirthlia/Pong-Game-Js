@@ -5,7 +5,7 @@ export default class Paddle {
     this.paddleElem = paddleElem
     this.reset()
   }
-
+  
   get position() {
     return parseFloat(
       getComputedStyle(this.paddleElem).getPropertyValue("--position")
